@@ -37,3 +37,6 @@ coverage/
 # Ignore lock files if you want (optional)
 # package-lock.json
 yarn.lock 
+
+client/public/images/Appweb.zip
+client/public/images/dbeaver-ce-25.0.1-x86_64-setup.exe
