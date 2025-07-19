@@ -1,72 +1,60 @@
-# Node modules
+# === Node modules ===
 node_modules/
 client/node_modules/
 server/node_modules/
 
-# # Build output
+# === Build output ===
 client/build/
 client/dist/
 server/build/
 server/dist/
 
-# Logs
+# === Logs ===
 logs/
 *.log
 npm-debug.log*
 yarn-debug.log*
 yarn-error.log*
 
-# OS files
+# === OS files ===
 .DS_Store
 Thumbs.db
 
-# Env files
+# === Env files ===
 .env
 .env.*
 client/.env
 server/.env
-
-# IDE
-.vscode/
-.idea/
-
-# Misc
-*.local
-coverage/
-
-# Ignore lock files if you want (optional)
-# package-lock.json
-yarn.lock 
-
-client/public/images/Appweb.zip
-client/public/images/dbeaver-ce-25.0.1-x86_64-setup.exe
-client/src/assets/img/dbeaver-ce-25.0.1-x86_64-setup.exe 
-client/src/assets/img/Appweb.zip
-
-# See https://help.github.com/articles/ignoring-files/ for more about ignoring files.
-
-# dependencies
-/node_modules
-/.pnp
-.pnp.js
-client/node_modules
-server/node_modules
-
-# testing
-/coverage
-
-# production
-/build
-
-# misc
-.DS_Store
 .env.local
 .env.development.local
 .env.test.local
 .env.production.local
 
-npm-debug.log*
-yarn-debug.log*
-yarn-error.log*
+# === IDEs ===
+.vscode/
+.idea/
+
+# === Coverage & test ===
+coverage/
+/coverage
+
+# === Lock files (optional) ===
+# package-lock.json
+# yarn.lock
+
+# === Large or unwanted binaries ===
+client/public/images/Appweb.zip
+client/public/images/dbeaver-ce-25.0.1-x86_64-setup.exe
+client/src/assets/img/Appweb.zip
+client/src/assets/img/dbeaver-ce-25.0.1-x86_64-setup.exe
 server/node_modules/nodemon/bin/windows-kill.exe
-.gitignore
+
+# === Misc ===
+*.local
+
+# === Production builds (optional) ===
+/build
+
+# === PnP (Yarn Plug'n'Play) ===
+/.pnp
+.pnp.js
